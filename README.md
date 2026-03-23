@@ -45,3 +45,13 @@ The host terminal runs a background thread that listens for keyboard input witho
 2. Install the required dependencies: 
    ```bash
    pip install fastapi uvicorn websockets pyngrok python-dotenv
+3. Create a .env file in the root directory and add your credentials:
+   ```bash
+   NGROK_AUTH_TOKEN=your_ngrok_token_here
+   ROOM_PASSWORD=your_custom_password
+4.Start the server, enter this in your terminal 
+  ```bash
+  python server.py
+
+
+
